@@ -13,7 +13,7 @@ public class RestClient {
 		// TODO Auto-generated method stub
 		
 		String methodName="getEmployee";
-       
+       System.out.println(methodName);
       //  webTarget.register(Employee.class);
 		WebTarget webTarget=getWebTarget(methodName);
 		List<Employee> employeeList=  webTarget.request().get(new GenericType<List<Employee>>(){});
