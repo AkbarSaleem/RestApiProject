@@ -21,6 +21,9 @@ public class RestClient {
 		for(Employee emp:employeeList){
 			System.out.println(emp.getEmpNo()+" "+emp.getEmpName());
 		}
+		
+		
+		 System.out.println("Static main method end");
       
 	}
 	
